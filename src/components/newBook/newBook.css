@@ -1,0 +1,41 @@
+.newBook {
+  display: flex;
+  justify-content: center;
+}
+
+.newBookDescriptionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+}
+
+.newBookDescriptionFormTitle {
+  padding: 20px 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.newBookDescriptionFormInput {
+  border: none;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.newBookDescriptionFormButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.newBookButton {
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: white;
+}

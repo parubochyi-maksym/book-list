@@ -1,0 +1,53 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboardTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dashboardTitleText {
+  font-style: italic;
+}
+
+.dashboardTitleBook {
+  color: cornflowerblue;
+  font-weight: 300;
+}
+
+.dashboardTitleList {
+  color:gray;
+  font-weight: 300;
+}
+
+.dashboardBookButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.dashboardAddBookButton {
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboardTitle {
+    display: flex;
+    justify-content: center;
+  }
+
+}

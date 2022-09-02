@@ -1,0 +1,73 @@
+.bookDescription {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bookDescriptionTableTitle {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: aliceblue;
+}
+
+.bookDescriptionTableData {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:whitesmoke;
+}
+
+.bookDescriptionTableButtonEdit {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.bookDescriptionTableButtonDelete {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightgrey;
+  color: white;
+}
+
+.bookDescriptionTableButtonWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDescription {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bookDescriptionTableTitle {
+    padding: 10px 5px 20px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bookDescriptionTableData {
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bookDescriptionTableButtonEdit {
+    font-size: 12px;
+  }
+
+  .bookDescriptionTableButtonDelete {
+    font-size: 12px;
+  }
+}
