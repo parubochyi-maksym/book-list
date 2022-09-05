@@ -1,10 +1,10 @@
-.bookDescription {
+.bookList {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.bookDescriptionTableTitle {
+.bookListTableTitle {
   padding: 20px 20px 20px 20px;
   text-align: center;
   font-size: 18px;
@@ -13,24 +13,24 @@
   background-color: aliceblue;
 }
 
-.bookDescriptionTableData {
+.bookListTableData {
   padding: 10px 20px 10px 20px;
   text-align: center;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
 
-.bookDescriptionTableButtonEdit {
+.bookListTableButtonEdit {
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 5px;
-  background-color:cornflowerblue;
+  background-color: cornflowerblue;
   color: white;
 }
 
-.bookDescriptionTableButtonDelete {
+.bookListTableButtonDelete {
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -38,36 +38,36 @@
   color: white;
 }
 
-.bookDescriptionTableButtonWrapper {
+.bookListTableButtonWrapper {
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
-  .bookDescription {
+  .bookList {
     display: flex;
     justify-content: center;
   }
 
-  .bookDescriptionTableTitle {
+  .bookListTableTitle {
     padding: 10px 5px 20px 5px;
     text-align: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .bookDescriptionTableData {
+  .bookListTableData {
     padding: 5px 10px 5px 10px;
     text-align: center;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .bookDescriptionTableButtonEdit {
+  .bookListTableButtonEdit {
     font-size: 12px;
   }
 
-  .bookDescriptionTableButtonDelete {
+  .bookListTableButtonDelete {
     font-size: 12px;
   }
 }

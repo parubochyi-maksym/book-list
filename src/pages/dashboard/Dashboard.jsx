@@ -1,5 +1,5 @@
 import React from "react";
-import BookDescription from "../../components/bookDescription/BookDescription";
+import BookDescription from "../../components/bookList/BookList";
 import "./dashboard.css";
 import { Link } from "react-router-dom";
 
